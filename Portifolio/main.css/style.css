@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 2000px;
+  background-image: url(../img/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fundo{
+  height: 400px;
+  width: 500px;
+  color: solid #333;
+  text-align: center;
+  display: flex;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 49px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+nav .nome {
+  font-size: large;
+  color: #fff;
+  float: left;
+  display: block;
+  padding: 14px 16px;
+}
+
+nav a {
+  font-size: large;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+}
+
+nav a:hover {
+  transition: 0.5s;
+  background-color:  #e4e4e4;
+  color: #333;
+}
+
+main section {
+  margin-top: 5%;
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section .number {
+  color: #fff;
+  font-size: 45px;
+}
+
+main section .name_sobre {
+  color: #fff;
+  
+  font-size: 40px;
+  font-weight: 800;
+  display: inline-block;
+  font-family: "Montserrat";
+}
+
+main section .text {
+  color: #fff;
+  width: 50%;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+}
